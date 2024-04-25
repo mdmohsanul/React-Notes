@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 
 /* 
+useRef hook gives us the referance of any element in our component
+
    If we have an input box and we want the userinput then everytime user press a key it will re-render our component.
 So instead of using useState we can use useRef hook to track the input changes
  
